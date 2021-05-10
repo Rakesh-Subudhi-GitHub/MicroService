@@ -1,0 +1,6 @@
+server:
+  port: 1111
+  
+spring:
+  application:
+    name: GREET-API  

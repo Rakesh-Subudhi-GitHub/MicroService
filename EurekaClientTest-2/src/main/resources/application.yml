@@ -1,0 +1,6 @@
+server:
+  port: 2223
+  
+spring:
+  application:
+    name: CLIENT2-API 

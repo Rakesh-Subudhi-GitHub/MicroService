@@ -1,0 +1,7 @@
+server:
+  port: 8761
+
+#its server so it take not register take false say i am not a client
+eureka:
+  client:
+    register-with-eureka: false 

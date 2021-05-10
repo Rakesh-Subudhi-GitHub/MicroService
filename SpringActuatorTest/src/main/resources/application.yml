@@ -1,0 +1,12 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+
+info:
+  name: ActuatorProject
+  email: abc@gmail.com
+  company: india
+  
+  

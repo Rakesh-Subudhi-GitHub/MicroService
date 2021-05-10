@@ -1,0 +1,33 @@
+server:
+  port: 1112
+
+#DataSource config
+spring:
+  datasource:
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    url: jdbc:oracle:thin:@localhost:1521:orcl
+    username: rakesh
+    password: devibhai
+
+#config hibernate file
+  jpa:
+    hibernate:
+      ddl-auto: update
+      
+#spring jpa config      
+    show-sql: true  
+  application:
+    name: STOCKPRICE-API
+
+################################################################    
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+
+info:
+  name: StockPriceAPI
+  client: EurekaClient1
+  email: abc@gmail.com
+  company: rakesh      

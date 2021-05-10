@@ -1,0 +1,18 @@
+server:
+  port: 3333
+
+spring:
+  application:
+    name: STOCKCALC-API
+    
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+
+info:
+  name: StockPrice
+  client: EurekaClient1
+  email: abc@gmail.com
+  company: rakesh    
